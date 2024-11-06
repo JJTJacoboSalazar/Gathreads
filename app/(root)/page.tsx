@@ -1,10 +1,10 @@
-import { UserButton } from "@clerk/nextjs";
+// import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to your Clerk.js app!</h1>
-      <UserButton />
+      
+      <h1 className="head-text text-left">Home</h1>
     </div>
   )
 }
